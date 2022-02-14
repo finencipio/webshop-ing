@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5438/ingDemo
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL94Dialect
+    hibernate:
+      ddl-auto: update
+
+hnb:
+  base-url: "https://api.hnb.hr/tecajn/v1"
