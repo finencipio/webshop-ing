@@ -10,7 +10,7 @@ mvn clean install
 
 ```shell
 docker pull finencipio/pgimg:latest
-docker run finencipio/pgimg:latest
+docker run -p 5438:5432  finencipio/pgimg:latest
 ```
 
 ## Pokretanje aplikacije
